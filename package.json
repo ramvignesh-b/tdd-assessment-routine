@@ -1,14 +1,16 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "tdd-assessment-routine",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "vitest"
   },
-  "dependencies": {},
   "devDependencies": {
-    "typescript": "^5.5.3"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "vitest": "^3.2.4"
   },
   "private": true
 }
